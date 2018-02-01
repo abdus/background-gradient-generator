@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Graient Generator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="gradient">
+<center>
+	<h1>BACKGROUND GRADIENT GENERATOR</h1>
+	<hr>
+	<h3>Choose Color</h3>
+	<input type="color" id="color1" name="color-1" value="#3be2d9"> 
+	<input type="color" id="color2" name="color-1" value="#fcb7fc">
+	<h3>CSS</h3>
+	<span id="css-code" class="sub-heading">background: linear-gradient(to right, rgb(59, 226, 217), rgb(252, 183, 252));</span>
+	<br>
+	<h3>Gradient Type</h3>
+	<span class="sub-heading">(linear-gradient, radial-gradient)</span>
+	<br>
+	<input type="text" id="gradient-type" value="linear-gradient">
+	<h3>Gradient Direction</h3>
+	<span class="sub-heading">(to right, to left, to top, to bottom)</span>
+	<br>
+	<input type="text" id="gradient-direction" value="to right">
+	<br><em><span id="disable"></span></em>
+	
+
+
+
+	<script type="text/javascript" src="gradient.js"></script>
+</body>
+</html>

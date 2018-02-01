@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Vast+Shadow');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Baumans');
+#gradient{
+	margin: 0px;
+	text-align: center;
+	background: linear-gradient(to right, rgb(59, 226, 217), rgb(252, 183, 252));
+}
+#css-code{
+	background: white;
+	padding: 0 5px;
+	border-radius: 5px;
+}
+h1{
+	color: #e2ff00;
+	text-shadow: 2px 2px #000000;
+	font-family: 'Vast Shadow', cursive;
+	letter-spacing: 3px;
+	font-size: 2em;
+}
+h3{
+	color: #f20fb3;
+	font-family: 'Baumans', cursive;
+	letter-spacing: 2px;
+	font-size: 1.6em;
+}
+.sub-heading{
+	color: gray;
+	font-family: 'Open Sans', sans-serif;
+}
+input{
+	border: 0px;
+	padding: 10px;
+	border-radius: 10px;
+	background: linear-gradient(to right, rgb(234, 242, 152), rgb(180, 238, 193));
+	font-family: 'Baumans', cursive;
+	text-align: center;
+}
+#color1, #color2{
+	padding: 0px;
+	border-radius: 0px;
+	background: white;
+}
+#disable{
+	color: red;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: underline;
+	font-weight: 900;
+}
