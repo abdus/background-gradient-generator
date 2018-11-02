@@ -32,7 +32,7 @@ input{
 	border: 0px;
 	padding: 10px;
 	border-radius: 10px;
-	background: linear-gradient(to right, rgb(234, 242, 152), rgb(180, 238, 193));
+	background: linear-gradient(to right, rgb(234, 242, 152), rgb(234, 238, 193));
 	font-family: 'Baumans', cursive;
 	text-align: center;
 }
